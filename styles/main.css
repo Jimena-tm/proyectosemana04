@@ -1,0 +1,147 @@
+/*GLOBALS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+}
+
+p {
+  font-family: arial;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+}
+
+/*.banner*/
+.banner {
+  position: relative;
+}
+
+.banner h1,
+.banner h2 {
+  position: absolute;
+}
+
+.banner h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  color: white;
+  top: 20px;
+}
+
+.banner h2 {
+  color: white;
+  bottom: 130px;
+  left: 110px;
+  font-size: 30px;
+  background: rgba(114, 153, 254, 0.5);
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  padding-right: 5px;
+}
+
+/*.about*/
+
+.about {
+  background: #7299fe;
+  padding: 20px;
+}
+
+.about h2 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about p {
+  color: white;
+  line-height: 24px;
+  font-style: normal;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+
+.about button {
+  font-family: helvetica;
+  color: white;
+  background: #d16fff;
+  border-radius: 15px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-right: 40px;
+  padding-left: 40px;
+  bottom: 80px;
+  left: 55px;
+  margin-left: 20px;
+  margin-bottom: 45px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+/*.skill*/
+
+.skill {
+  background: #9122ff;
+  padding:30px 60px 60px;
+}
+
+.skill h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.skill h3 {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.skill1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill1 .item {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.skill1 .item:nth-child(even) {
+    padding-left: 10px;
+}
+
+.skill1 .item:nth-child(odd) {
+    padding-right: 10px;
+}
+
+.skill .barra {
+    background: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.skill .barra div {
+    height: 20px;
+    width: 30%;
+    background: #57EFF9;
+    border-radius: 10px;
+}
+
+}
+
